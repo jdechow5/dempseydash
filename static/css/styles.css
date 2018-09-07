@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Bowlby+One+SC');
+
+body {
+  background: #23ff32 url(../img/bg1.png) repeat-y center top;
+  background-size: contain;
+  font-size: 2rem;
+  color: #000;
+  font-family: 'Baloo Tammudu', cursive;
+  /*font-family: 'Bowlby One SC', cursive;*/
+  padding: 4rem;
+  height: 400vh;
+  border: #23ff32 1em solid;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 60%;
+  /*max-width: 80%;*/
+  /*height: 80vh;*/
+}
+
+p {
+  margin: 14em 0;
+  display: none;
+}
+
+a {
+  color: #23ff32;
+}
+
+.rellax {
+  font-size: 4rem;
+  background-color: rgba(200,200,100,0,8);
+  position: absolute;
+}
+
+.va {
+  top: 40vh;
+  left: 20%;
+}
+
+.vb {
+  top: 210vh;
+  left: 55%;
+}
+
+.vc {
+  top: 212vh;
+  left: 60%;
+  font-size: 1em;
+}
+
+.vd {
+  top: 260vh;
+  left: 33%;
+}
