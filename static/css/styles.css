@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Bowlby+One+SC');
 
-html * {
-  box-sizing: border-box;
-}
-
 body {
   background: #fff url(../img/bg1.png) no-repeat center center;
   background-size: contain;
   font-size: 1.6rem;
-  color: #000;
   color: #23ff32;
   font-family: 'Baloo Tammudu', cursive;
-  /*font-family: 'Bowlby One SC', cursive;*/
-  padding: 0 4rem;
-  height: 400vh;
-  border: #23ff32 1em solid;
-  max-width: 900px;
-  margin: 0 auto;
   overflow-x: hidden;
   overflow-y: visible;
+  /*font-family: 'Bowlby One SC', cursive;*/
+}
+
+.frame {
+  padding: 0 2rem;
+  height: 280vh;
+  border: #23ff32 1em solid;
+  width: 100%;
+  overflow: hidden;
 }
 
 p {
@@ -30,29 +28,31 @@ a {
   color: #23ff32;
 }
 
+
+
 .rellax {
-  font-size: 4rem;
+  font-size: 3rem;
   position: absolute;
 }
 
 .va {
-  top: 44vh;
+  top: 22vh;
   left: 25%;
 }
 
 .vb {
-  top: 230vh;
+  top: 115vh;
   left: 29%;
 }
 
 .vc {
-  top: 233vh;
+  top: 117vh;
   left: 50%;
   font-size: 1em;
 }
 
 .vd {
-  top: 270vh;
+  top: 235vh;
   left: 32%;
 }
 
@@ -77,51 +77,156 @@ a {
 }
 
 .big-3 {
-  top: 110vh;
-  left: 30%;
+  top: 45vh;
+  left: 1%;
 }
 .triad-all {
-  top: 300vh;
+  top: 170vh;
   left: 50%;
   margin-left: -231px;
   padding-bottom: 2em;
 }
 .b-3 {
-  top: 220vh;
-  left: 44%;
+  top: 140vh;
+  left: 24%;
 }
 .m-3 {
-  top: 270vh;
-  left: 44%;
+  top: 155vh;
+  left: 24%;
 }
 .t-3 {
-  top: 340vh;
-  left: 44%;
+  top: 175vh;
+  left: 24%;
 }
 .dash-main {
-  top: 55vh;
+  top: 25vh;
   left: 50%;
   margin-left: -25%;
 }
 .rotated-3 {
-  top: 320vh;
-  left: -4%;
+  top: 140vh;
+  left: 80%;
   z-index: -1
 }
 .d-money {
-  top: 179vh;
+  top: 80vh;
   left: 23%;
 }
 .the-b {
-  top: 220vh;
+  top: 110vh;
   left: 16%;
   z-index: 1
 }
 .the-d {
-  top: 180vh;
+  top: 90vh;
   left: 56%;
 }
 .dashbar {
-  top: 272vh;
+  top: 215vh;
   left: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  .frame {
+    padding: 0 4rem;
+    height: 460vh;
+  }
+
+  .rellax {
+    font-size: 4rem;
+    position: absolute;
+  }
+
+  .va {
+    top: 44vh;
+    left: 25%;
+  }
+
+  .vb {
+    top: 230vh;
+    left: 29%;
+  }
+
+  .vc {
+    top: 233vh;
+    left: 50%;
+    font-size: 1em;
+  }
+
+  .vd {
+    top: 270vh;
+    left: 32%;
+  }
+
+  .vd > a {
+    color: #000;
+  }
+  .vd > a:hover {
+    color: #23ff32;
+  }
+
+  .dashbar {
+    z-index: -1;
+    height: 180px;
+    width: 97%;
+    background: transparent url(../img/the-dash.png) repeat center top;
+  }
+
+  .dashbar > span {
+    display: block;
+    text-indent: -9999em;
+    height: 0;
+  }
+
+  .big-3 {
+    top: 110vh;
+    left: 30%;
+  }
+  .triad-all {
+    top: 300vh;
+    left: 50%;
+    margin-left: -231px;
+    padding-bottom: 4em;
+  }
+  .b-3 {
+    top: 220vh;
+    left: 44%;
+  }
+  .m-3 {
+    top: 270vh;
+    left: 44%;
+  }
+  .t-3 {
+    top: 340vh;
+    left: 44%;
+  }
+  .dash-main {
+    top: 55vh;
+    left: 50%;
+    margin-left: -25%;
+  }
+  .rotated-3 {
+    top: 320vh;
+    left: -4%;
+    z-index: -1
+  }
+  .d-money {
+    top: 179vh;
+    left: 23%;
+  }
+  .the-b {
+    top: 220vh;
+    left: 16%;
+    z-index: 1
+  }
+  .the-d {
+    top: 180vh;
+    left: 56%;
+  }
+  .dashbar {
+    top: 272vh;
+    left: 0;
+  }
+
 }
