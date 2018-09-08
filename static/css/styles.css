@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Bowlby+One+SC');
 
-body {
-  background: #23ff32 url(../img/bg1.png) repeat-y center top;
-  background-size: contain;
-  font-size: 2rem;
-  color: #000;
-  font-family: 'Baloo Tammudu', cursive;
-  /*font-family: 'Bowlby One SC', cursive;*/
-  padding: 4rem;
-  height: 400vh;
-  border: #23ff32 1em solid;
+html * {
+  box-sizing: border-box;
 }
 
-.wrapper {
+body {
+  background: #fff url(../img/bg1.png) no-repeat center center;
+  background-size: contain;
+  font-size: 1.6rem;
+  color: #000;
+  color: #23ff32;
+  font-family: 'Baloo Tammudu', cursive;
+  /*font-family: 'Bowlby One SC', cursive;*/
+  padding: 0 4rem;
+  height: 400vh;
+  border: #23ff32 1em solid;
+  max-width: 900px;
   margin: 0 auto;
-  width: 60%;
-  /*max-width: 80%;*/
-  /*height: 80vh;*/
+  overflow-x: hidden;
+  overflow-y: visible;
 }
 
 p {
@@ -30,27 +32,96 @@ a {
 
 .rellax {
   font-size: 4rem;
-  background-color: rgba(200,200,100,0,8);
   position: absolute;
 }
 
 .va {
-  top: 40vh;
-  left: 20%;
+  top: 44vh;
+  left: 25%;
 }
 
 .vb {
-  top: 210vh;
-  left: 55%;
+  top: 230vh;
+  left: 29%;
 }
 
 .vc {
-  top: 212vh;
-  left: 60%;
+  top: 233vh;
+  left: 50%;
   font-size: 1em;
 }
 
 .vd {
-  top: 260vh;
-  left: 33%;
+  top: 270vh;
+  left: 32%;
+}
+
+.vd > a {
+  color: #000;
+}
+.vd > a:hover {
+  color: #23ff32;
+}
+
+.dashbar {
+  z-index: -1;
+  height: 180px;
+  width: 97%;
+  background: transparent url(../img/the-dash.png) repeat center top;
+}
+
+.dashbar > span {
+  display: block;
+  text-indent: -9999em;
+  height: 0;
+}
+
+.big-3 {
+  top: 110vh;
+  left: 30%;
+}
+.triad-all {
+  top: 300vh;
+  left: 50%;
+  margin-left: -231px;
+  padding-bottom: 2em;
+}
+.b-3 {
+  top: 220vh;
+  left: 44%;
+}
+.m-3 {
+  top: 270vh;
+  left: 44%;
+}
+.t-3 {
+  top: 340vh;
+  left: 44%;
+}
+.dash-main {
+  top: 55vh;
+  left: 50%;
+  margin-left: -25%;
+}
+.rotated-3 {
+  top: 320vh;
+  left: -4%;
+  z-index: -1
+}
+.d-money {
+  top: 179vh;
+  left: 23%;
+}
+.the-b {
+  top: 220vh;
+  left: 16%;
+  z-index: 1
+}
+.the-d {
+  top: 180vh;
+  left: 56%;
+}
+.dashbar {
+  top: 272vh;
+  left: 0;
 }
